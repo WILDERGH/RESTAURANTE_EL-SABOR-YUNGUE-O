@@ -1,0 +1,67 @@
+/* Reset de estilos para asegurar consistencia en diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Verde claro - color de fondo general */
+}
+
+.container {
+    max-width: 1200px; /* Ancho máximo del contenido */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2e7d32; /* Verde oscuro - color de fondo de la barra de navegación */
+}
+
+.navbar-brand {
+    color: #ffffff; /* Blanco - color del texto del logo en la barra de navegación */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Blanco - color del texto de los enlaces en la barra de navegación */
+}
+
+/* Sección de Menú */
+#menu {
+    background-color: #c8e6c9; /* Verde claro - color de fondo de la sección de menú */
+    padding: 40px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* Sección de Información de Contacto */
+#contacto {
+    background-color: #aed581; /* Verde medio - color de fondo de la sección de contacto */
+    padding: 40px 0;
+}
+
+.list-group-item {
+    background-color: transparent; /* Fondo transparente para los elementos de la lista */
+}
+
+/* Galería de Imágenes */
+#galeria {
+    background-color: #c8e6c9; /* Verde claro - color de fondo de la sección de galería */
+    padding: 40px 0;
+}
+
+.img-fluid {
+    border-radius: 8px; /* Esquinas redondeadas para las imágenes */
+    margin-bottom: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1b5e20; /* Verde oscuro - color de fondo del pie de página */
+    color: #ffffff; /* Blanco - color del texto del pie de página */
+    padding: 20px 0;
+}
